@@ -1,0 +1,27 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.0/schema.json",
+    "version": "v1.0",
+    "name": "MS-Graph-support",
+    "description": "A dedicated Co-Pilot agent that can help answer queries about Microsoft Graph-API",
+    "instructions": "$[file('instruction.txt')]",
+    "capabilities": [
+    {
+        "name": "OneDriveAndSharePoint",
+        "items_by_url": [
+            {
+                "url": "https://testtestm365copilotsupport.sharepoint.com/sites/productmarketing/shared%20documents"
+            }
+        ]
+    }
+],
+"conversation_starters": [
+  {
+    "title": "Graph-API case Information",
+    "text": "Tell me about Graph-API cases"
+  },
+  {
+    "title": "US Bank case",
+    "text": "Tell me about Graph-API US Bank case cases in standard support"
+  }
+]
+}
