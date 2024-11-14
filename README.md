@@ -2,10 +2,10 @@
 
 ## Build a basic declarative agent
 
-Custom instructions: Shape responses by defining custom instructions.
-Custom grounding: Configure a SharePoint Online document library as a source of grounding data.
-Conversation starters: Define prompts for starting new conversations.
-Provision: Upload your declarative agent to Microsoft 365 Copilot and validate the results.
+-Custom instructions: Shape responses by defining custom instructions.
+-Custom grounding: Configure a SharePoint Online document library as a source of grounding data.
+-Conversation starters: Define prompts for starting new conversations.
+-Provision: Upload your declarative agent to Microsoft 365 Copilot and validate the results.
 
 ## Get started with the template
 
@@ -25,13 +25,7 @@ Provision: Upload your declarative agent to Microsoft 365 Copilot and validate t
 5. Once the Copilot app is loaded in the browser, click on the "…" menu and select "Copilot chats". You will see your declarative agent on the right rail. Clicking on it will change the experience to showcase the logo and name of your declarative agent.
 6. Ask a question to your declarative agent and it should respond based on the instructions provided.
 
-## What's included in the template
-
-| Folder       | Contents                                                                                 |
-| ------------ | ---------------------------------------------------------------------------------------- |
-| `.vscode`    | VSCode files for debugging                                                               |
-| `appPackage` | Templates for the Teams application manifest, the GPT manifest and the API specification |
-| `env`        | Environment files                                                                        |
+## What's included in the repository
 
 The following files can be customized and demonstrate an example implementation to get you started.
 
@@ -40,12 +34,10 @@ The following files can be customized and demonstrate an example implementation 
 | `appPackage/declarativeAgent.json` | Define the behaviour and configurations of the declarative agent.            |
 | `appPackage/manifest.json`           | Teams application manifest that defines metadata for your declarative agent. |
 
-The following are Teams Toolkit specific project files. You can [visit a complete guide on Github](https://github.com/OfficeDev/TeamsFx/wiki/Teams-Toolkit-Visual-Studio-Code-v5-Guide#overview) to understand how Teams Toolkit works.
-
-| File           | Contents                                                                                                                                  |
-| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| `teamsapp.yml` | This is the main Teams Toolkit project file. The project file defines two primary things: Properties and configuration Stage definitions. |
-
 ## Addition information and references
 
 - [Declarative agents for Microsoft 365](https://aka.ms/teams-toolkit-declarative-agent)
+- [Write effective instructions for declarative agents](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-instructions)
+- [Retrieving capabilities IDs for declarative agent manifest](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-capabilities-ids?tabs=explorer#microsoft-graph-connectors)
+- [Declarative agent schema for Microsoft 365 Copilot]( https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-manifest#onedrive-and-sharepoint-object
+)
