@@ -22,6 +22,10 @@
   {
     "title": "US Bank case",
     "text": "Tell me about Graph-API US Bank case cases in standard support"
+  },
+  {
+    "title": "Premier CoPilot Case data",
+    "text": "Give the list of Premier CoPilot cases along with the support area path. Also give me the count of cases."
   }
 ]
 }
