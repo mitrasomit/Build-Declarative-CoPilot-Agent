@@ -39,5 +39,4 @@ The following files can be customized and demonstrate an example implementation 
 - [Declarative agents for Microsoft 365](https://aka.ms/teams-toolkit-declarative-agent)
 - [Write effective instructions for declarative agents](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-instructions)
 - [Retrieving capabilities IDs for declarative agent manifest](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-capabilities-ids?tabs=explorer#microsoft-graph-connectors)
-- [Declarative agent schema for Microsoft 365 Copilot]( https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-manifest#onedrive-and-sharepoint-object
-)
+- [Declarative agent schema for Microsoft 365 Copilot]( https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-manifest#onedrive-and-sharepoint-object)
