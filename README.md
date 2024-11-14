@@ -1,8 +1,11 @@
-# Overview of the basic declarative agent template
+# Overview of the exercise of this declarative agent 
 
 ## Build a basic declarative agent
 
-With the declarative agent, you can build a custom version of Copilot that can be used for specific scenarios, such as for specialized knowledge, implementing specific processes, or simply to save time by reusing a set of AI prompts. For example, a grocery shopping Copilot declarative agent can be used to create a grocery list based on a meal plan that you send to Copilot.
+Custom instructions: Shape responses by defining custom instructions.
+Custom grounding: Configure a SharePoint Online document library as a source of grounding data.
+Conversation starters: Define prompts for starting new conversations.
+Provision: Upload your declarative agent to Microsoft 365 Copilot and validate the results.
 
 ## Get started with the template
 
@@ -14,8 +17,6 @@ With the declarative agent, you can build a custom version of Copilot that can b
 > - A [Microsoft 365 account for development](https://docs.microsoft.com/microsoftteams/platform/toolkit/accounts).
 > - [Teams Toolkit Visual Studio Code Extension](https://aka.ms/teams-toolkit) version 5.0.0 and higher or [Teams Toolkit CLI](https://aka.ms/teamsfx-toolkit-cli)
 > - [Microsoft 365 Copilot license](https://learn.microsoft.com/microsoft-365-copilot/extensibility/prerequisites#prerequisites)
-
-![image](https://github.com/user-attachments/assets/e1c2a3b3-2e59-4e9b-8335-19315e92ba30)
 
 1. First, select the Teams Toolkit icon on the left in the VS Code toolbar.
 2. In the Account section, sign in with your [Microsoft 365 account](https://docs.microsoft.com/microsoftteams/platform/toolkit/accounts) if you haven't already.
